@@ -1,0 +1,93 @@
+body {
+  display: flex;
+  max-width: 480px;
+  margin-top: 10px;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 70px;
+  padding-top: 25px;
+}
+
+h2 {
+  text-align: right;
+  padding-top: 18px;
+  font-size: 68px;
+}
+
+h2,
+h3 {
+  font-family: "Amatic SC", cursive;
+  color: #ffff;
+}
+
+h3 {
+  padding-top: 14px;
+}
+
+li {
+  font-family: "Amatic SC", cursive;
+  color: #588294;
+  padding-top: 20px;
+  font-size: 18px;
+  list-style: none;
+  margin: 0;
+  text-align: left;
+}
+
+.units {
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffff;
+}
+
+a:hover {
+  color: #588294;
+}
+
+button {
+  padding: 1px 6px;
+  border-width: 2px;
+  border-style: none;
+  border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+}
+
+#main-cloud {
+  padding-left: 120px;
+  font-size: 80px;
+  padding-bottom: 20px;
+}
+
+#date {
+  color: #01577a;
+  display: block;
+  padding-right: 75px;
+  text-align: center;
+  font-size: 28px;
+}
+
+.fa-sun {
+  color: #ffe8aa;
+}
+
+.fa-cloud {
+  color: #657789;
+  opacity: 0.8px;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  background-color: #cddcdc;
+  position: relative;
+  height: 100%;
+  border-radius: 25px;
+  background-image: url(https://images.unsplash.com/photo-1610528771888-9c7f02f194c7?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80);
+}
