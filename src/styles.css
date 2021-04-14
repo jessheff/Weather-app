@@ -59,6 +59,10 @@ button {
   border-image: initial;
 }
 
+small {
+  color: #ffff;
+}
+
 #main-cloud {
   padding-left: 120px;
   font-size: 80px;
@@ -71,10 +75,6 @@ button {
   padding-right: 75px;
   text-align: center;
   font-size: 28px;
-}
-
-#github-link {
-  color: #ffff;
 }
 
 .fa-sun {
