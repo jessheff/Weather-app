@@ -73,6 +73,10 @@ button {
   font-size: 28px;
 }
 
+#github-link {
+  color: #ffff;
+}
+
 .fa-sun {
   color: #ffe8aa;
 }
