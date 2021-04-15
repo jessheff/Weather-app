@@ -1,4 +1,4 @@
-.weather-app {
+body {
   display: flex;
   max-width: 480px;
   margin-top: 10px;
