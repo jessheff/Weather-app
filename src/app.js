@@ -27,6 +27,14 @@ let now = new Date();
 
 current.innerHTML = formatTime(now);
 
+//Creating the forecast
+
+function displayForecast(){
+    let forecastElement = document.querySelector("#forecast");
+
+    forecastElement.innerHTML = "Forecast";
+}
+
 //Creating the weather conditions for Country in H1
 
 function displayWeatherCondition(response) {
@@ -98,3 +106,6 @@ function getCurrentPosition(event) {
 
 let button = document.querySelector("button");
 button.addEventListener("click", getCurrentPosition);
+
+search("London");
+displayForecast();
