@@ -43,9 +43,6 @@ function displayWeatherCondition(response) {
     response.data.main.temp
   );
 
-  celsiusTemperature = response.data.main.temp;
-  temperatureElement.innerHTML = Math.round(celsiusTemperature);
-
   document.querySelector("#humidity").innerHTML = response.data.main.humidity;
   document.querySelector("#wind").innerHTML = Math.round(
     response.data.wind.speed
@@ -53,8 +50,13 @@ function displayWeatherCondition(response) {
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
 
-    let iconElement = document.querySelector("#icon");
-    iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+ let iconElement = document.querySelector("#icon");
+ iconElement.setAttribute("src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`);
+
+
+  celsiusTemperature = response.data.main.temp;
+  temperatureElement.innerHTML = Math.round(celsiusTemperature);
+
 }
 
 //Creating the search form for Country in H1:
